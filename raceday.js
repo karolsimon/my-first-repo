@@ -12,3 +12,14 @@ if (registeredEarly === false && age > 18) {
 } else if (age <= 18) {
   console.log(`Your number is ${raceNumber} You will race at 12:30 pm.`);
 }
+const getUserChoice = (userInput) => {
+  if (
+    userInput === "rock" ||
+    userInput === "paper" ||
+    userInput === "scissors"
+  ) {
+    return userInput;
+  } else {
+    console.log("Error!");
+  }
+};
