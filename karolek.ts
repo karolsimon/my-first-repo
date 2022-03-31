@@ -177,3 +177,4 @@ console.log(nums.some((num) => num < 0));
 // as the sallerNums contains SOME of the negative numbers there will be a TRUE forn the method 'some' but FALSE for the method 'every' :)
 nums.some((smallerNums) => smallerNums < 0);
 console.log(smallerNums.some((smallerNums) => smallerNums < 0));
+// moengtihn
