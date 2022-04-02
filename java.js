@@ -1,26 +1,36 @@
 console.log("karol");
+const dayList = [
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday",
+];
+const numbers = [1, 9, 2];
+const users = ["karol", "michal"];
+const value = users.forEach((user) => {
+  console.log(user);
+});
+const usersWithAge = users.map((user) => user.toUpperCase());
+console.log({ usersWithAge: usersWithAge, users });
 const getSleepHours = (day) => {
   switch (day) {
     case "monday":
       return 8;
     case "tuesday":
       return 7;
-      break;
     case "wednesday":
       return 7;
-      break;
     case "thursday":
       return 7;
-      break;
     case "friday":
       return 7;
-      break;
     case "saturday":
       return 7;
-      break;
     case "sunday":
       return 7;
-      break;
   }
 };
 

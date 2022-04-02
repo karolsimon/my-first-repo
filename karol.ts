@@ -1,12 +1,7 @@
-const getUserChoice = (userInput: string) => {
-  userInput = userInput.toLowerCase();
-  if (
-    userInput === "rock" ||
-    userInput === "paper" ||
-    userInput === "scissors"
-  ) {
-    return userInput;
-  } else {
-    console.log("Error!");
-  }
-};
+const karol = "1,2,3,4,5";
+const michal = karol.split(",");
+
+const cezar = michal.map((element) => {
+  return Number(element);
+});
+console.log(cezar);
