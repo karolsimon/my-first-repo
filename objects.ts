@@ -58,7 +58,7 @@ let spaceeeship = {
 //reassign the color property of the spaceship object to have a value of 'glorious gold'
 
 spaceeeship.color = "glorious gold";
-
+:)
 // Without changing lines 1 - 6, add a numEngines property with a numeric value between 1 and 10 to the spaceship object.
 
 spaceeeship.numEngines = 9;
