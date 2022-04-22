@@ -36,3 +36,4 @@ team.addPlayer("Bugs", "Bunny", 76);
 console.log(team.players);
 team.addGame("Titans", 100, 98);
 console.log(team.games);
+g6;

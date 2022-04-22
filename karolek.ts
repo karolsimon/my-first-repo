@@ -46,7 +46,7 @@ const secretMessage = animals.map((animals) => animals[0]);
 
 console.log(secretMessage.join(""));
 
-const bigNumbers = [100, 200, 300, 400, 500];
+const bigNumbers = [100, 200, 300, 400, 500, 600];
 
 // Create the smallNumbers array below - how to devide numbers within an array and create the new one with .map()
 const smallNumbers = bigNumbers.map((num) => num / 100);
